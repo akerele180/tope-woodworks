@@ -1,0 +1,23 @@
+.shelf-text h3 {
+  text-transform: capitalize;
+  color: #623b1c;
+  font-size: 2.6em;
+}
+.shelf-text p {
+  color: #14120f;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 15px 0 35px;
+}
+section.shelf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw 0 15vw;
+}
+.shelf-text {
+  flex: 1;
+}
+.shelf-image {
+  flex: 1;
+}

@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6eddd;
+  padding: 50px 5vw;
+
+}
+.logo {
+  color: #623b1c;
+}
+header nav ul {
+  color: rgba(20, 18, 15, 0.8);
+  display: flex;
+  list-style-type: none;
+}
+header li {
+  margin: 0 20px;
+  cursor: pointer;
+}
+div.actions-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70px;
+  width: 100%;
+}

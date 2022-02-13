@@ -1,0 +1,27 @@
+section.cofee-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0 15vw 0 5vw;
+}
+.cofee-text h3 {
+  text-transform: capitalize;
+  color: #633c1c;
+  font-size: 2.6em;
+}
+.cofee-text p {
+  color: #14120f;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 15px 0 35px;
+}
+.cofee-text {
+  flex: 1;
+}
+.cofee-image {
+  flex: 1;
+}
+.cofee-image img {
+  float: right;
+}
